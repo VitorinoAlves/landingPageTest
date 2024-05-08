@@ -1,0 +1,65 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    background-color: #7646bf;
+}
+
+.navbar-brand{
+    font-family: "Sedgwick Ave Display", cursive;
+}
+
+.navbar-brand,
+header .nav-link{
+    color: #fff;
+}
+
+.navbar-nav .nav-link.active{
+    background-color: #fff;
+    color: #7646bf;
+}
+
+.navbar-brand:hover,
+header .nav-link:hover,
+#catalago .nav-link.active:hover{
+    color: #fff;
+}
+
+.navbar-toggler{
+    border-color: #fff;
+}
+
+.sectionTitle{
+    color: #5c2faa;
+    font-family: "Sedgwick Ave Display", cursive;
+}
+
+#sobreLoja,
+#catalago{
+    background-color: #ffefff;
+}
+
+.applyTitelColor,
+#catalago .nav-link:hover,
+.labelColor{
+    color: #5c2faa;
+}
+
+#catalago .nav-link.active{
+    background-color: #5c2faa;
+}
+
+.socialLinks li{
+    list-style: none;
+    display: inline;
+}
+
+.socialLinks li a{
+    text-decoration: none;
+}
+
+#faleConosco button{
+    background-color: #5c2faa;
+    color: #fff;
+}
